@@ -1,6 +1,6 @@
 # Data exploration and preparation for visualisation
-Firstly, in preparation for plotting, the data for past 25 years was extracted from WDI (1998-2022) and brought into R studio by setting the working directory, importing the file, and subsequently renaming it as "df." Some data cleaning and wrangling was done to ensure it's in long format and ready to visualise. Preview of the raw data can be seen below.
-<img width="1377" alt="Screenshot 2023-10-26 at 11 19 13 PM" src="https://github.com/Kfkyyian1/wdiexploration/assets/146427900/cd989afb-712a-41b9-a0a7-577e9343721a">
+Firstly, in preparation for plotting, the data for past 25 years was extracted from WDI (1998-2022) and brought into R studio by setting the working directory, importing the file, and subsequently renaming it as "df." Some data cleaning and wrangling was done to ensure it's in long format and ready to visualise. Preview of the raw data can be seen below. <br>
+<img width="1377" alt="Screenshot 2023-10-26 at 11 19 13 PM" src="https://github.com/Kfkyyian1/wdiexploration/assets/146427900/cd989afb-712a-41b9-a0a7-577e9343721a"> <br>
 
 1. Replace column names from column 5-29 to show the proper Year format
 ![image](https://github.com/Kfkyyian1/wdiexploration/assets/146427900/f412c380-4ef2-4f63-b51c-804536b58e45)
