@@ -24,7 +24,10 @@ Firstly, in preparation for plotting, the data for past 25 years was extracted f
 - colnames(df2) <- c("Country", "CountryCode","Year", "GDPGrowth", "GDPPerCap","ChildMortality")
 - df2 <- arrange(df2, CountryCode, Year)
 
-# Merging Meta Data
+6. Merging Metadata
+Since the "Region" and "Income Group" was in a separate excel sheet with metadata. The sheet was read and merged.
+- data_merged <- merge(df2,meta_data2, by.x="CountryCode", by.y="Code")![image](https://github.com/Kfkyyian1/wdiexploration/assets/146427900/5cc84f84-65ff-47eb-ae6c-03036d462e0f)
+
 
 
 
