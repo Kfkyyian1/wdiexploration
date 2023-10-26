@@ -1,4 +1,4 @@
-![image](https://github.com/Kfkyyian1/wdiexploration/assets/146427900/4f59649d-00e8-43c9-a17a-cca78268bc3d)# Data exploration and preparation for visualisation
+# Data exploration and preparation for visualisation
 Firstly, in preparation for plotting, the data for past 25 years was extracted from WDI (1998-2022) and brought into R studio by setting the working directory, importing the file, and subsequently renaming it as "df." Some data cleaning and wrangling was done to ensure it's in long format and ready to visualise. Preview of the raw data can be seen below.
 <img width="1377" alt="Screenshot 2023-10-26 at 11 19 13 PM" src="https://github.com/Kfkyyian1/wdiexploration/assets/146427900/cd989afb-712a-41b9-a0a7-577e9343721a">
 
